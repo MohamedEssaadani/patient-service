@@ -1,6 +1,5 @@
 package org.essaadani.patientservice.web;
 
-import jdk.dynalink.linker.LinkerServices;
 import lombok.RequiredArgsConstructor;
 import org.essaadani.patientservice.dto.PatientRequestDTO;
 import org.essaadani.patientservice.dto.PatientResponseDTO;
@@ -9,7 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.ws.rs.POST;
 import java.util.List;
 
 @RestController
